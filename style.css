@@ -1,0 +1,37 @@
+/*
+ Theme Name:   Proffet Child
+ Theme URI:    http://www.themesforge.com
+ Description:  Proffet Child Theme for Harp Column Music
+ Author:       Hugh Brock
+ Author URI:   http://harpcolumnmusic.com
+ Template:     proffet
+ Version:      1.0.0
+*/
+
+@import url("../proffet/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.hpslide_pricewrap {
+  background: #cd0074 !important;
+}
+
+.hpslide_pricewrap:hover {
+  background: #E2870D !important;
+}
+
+.woolearnmore {
+    background: #cd0074 !important;
+    border-color: #cd0074 !important;
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+}
+
+.products-carousel a:hover .woolearnmore {
+  border-color: #5b5b5b !important;
+  background: #5b5b5b !important;
+}
+
+.products-carousel .entry .prodprice .amount {
+  color: #cd0074 !important;
+}
